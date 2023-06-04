@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="cabecera">
+        <h1>Available Developers</h1>
+    </div>
+    <div class="container">
+        <div class="formulario">
+            <form id="form">
+                <div class="datos-Iniciales">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Developer name">
+                    <label for="avatar-url">URL Avatar</label>
+                    <input type="text" name="avatar-url" id="avatar-url" placeholder="Avatar URL">
+                </div>
+                <br>
+                <div class="presentacion-padre">
+                    <label id="titulo-presentacion" for="presentacion">Preséntate</label>
+                    <br>
+                    <textarea name="" id="presentacion" cols="30" rows="10" placeholder="Biography"></textarea>
+                </div>
+                    
+                <div class="checkbox-group">
+                    <label for="languages">Lenguajes:</label>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="html" name="language" value="html">
+                        <label for="html">HTML</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="js" name="language" value="js">
+                        <label for="js">JS</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="css" name="language" value="css">
+                        <label for="css">CSS</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="node" name="language" value="node">
+                        <label for="node">Node</label>
+                    </div>
+                    <div class="checkbox-option">
+                        <input type="checkbox" id="mongo" name="language" value="mongo">
+                        <label for="mongo">Mongo DB</label>
+                    </div>
+                </div>
+                <br>
+                <div class="boton-submit">
+                    <button type="submit">Insertar</button>
+                </div>
+                <br>
+            </form> 
+        </div>
+        <div id="listado-publicaciones">
+            <!--<div class="posts">
+                <div>
+                    <img class="perfil" src="https://i.pinimg.com/236x/6d/5e/38/6d5e38d19bf4c0c9554b1e6beab75952.jpg" alt="carla">
+                    <a href="#">Carla</a>
+                    <span class="options-languages">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="node-js">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="mongo-db">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html-5">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Javascript-shield.svg" alt="java-script">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css">
+                    </span>
+                    <h3>Hola soy desarrolladora front-end hace 5 años</h3>
+                </div>
+            </div>-->
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
